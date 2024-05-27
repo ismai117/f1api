@@ -1,4 +1,4 @@
 FROM openjdk:17
 RUN mkdir /app
-COPY ./build/libs/*-all.jar /app/formula1-api.jar
-ENTRYPOINT ["java","-jar","/app/formula1-api.jar"]
+COPY ./build/libs/*-all.jar /app/com.ncgroup.formula1-api.jar
+ENTRYPOINT ["java","-jar","/app/com.ncgroup.formula1-api.jar"]
